@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+	<meta name="description" content="Restauração de pisos de madeira, tacos e assoalhos em São Paulo. Mais de 20 anos de experiência. Orçamento gratuito e sem compromisso.">
+    <meta name="robots" content="index, follow">
+	
+
+	<meta property="og:title" content="Aplicadora Coelho - Restauração de Piso de Madeira">
+	<meta property="og:description" content="Mais de 20 anos de experiência. Orçamento gratuito em São Paulo.">
+	<meta property="og:image" content="https://www.aplicadoracoelho.com.br/IMG/paginicial/logo.png">
+	<meta property="og:url" content="https://www.aplicadoracoelho.com.br">
+	<meta property="og:type" content="website">
+	
+
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "LocalBusiness",
+	"name": "Aplicadora Coelho",
+	"telephone": "+5511954154573",
+	"areaServed": "São Paulo",
+	"url": "https://www.aplicadoracoelho.com.br",
+	"image": "https://www.aplicadoracoelho.com.br/IMG/paginicial/logo.png",
+	"description": "Restauração de pisos de madeira, tacos e assoalhos em São Paulo. Mais de 20 anos de experiência. Orçamento gratuito e sem compromisso."
+	}
+	</script>
+	
+	<title>Aplicadora Coelho | Restauração de Piso de Madeira em São Paulo</title>
 	<link rel="icon" href="IMG/paginicial/logo.png" type="image/png">
 
     <link rel="stylesheet" type="text/css" href="CSS/inicial.css">
 
+	<link rel="preconnect" href="https://kit.fontawesome.com">
 	<script src="https://kit.fontawesome.com/8007a83513.js" crossorigin="anonymous"></script>
 
 	<script defer type="text/javascript" src="JS/main.js"></script>
@@ -20,7 +45,7 @@
     <header class="header">
 	<div class="header_wrapper">
 			<a href="#" class="header_logo">
-			<img src="IMG/paginicial/logo.png" alt="Aplicadora Coelho">
+			<img src="IMG/paginicial/logo.png" alt="Logo Aplicadora Coelho">
 			<span>Aplicadora Coelho</span>
 			</a>
 
@@ -55,16 +80,16 @@
 				<h1 class="banner_text--tit">
 					RESTAURAÇÃO DE PISO DE MADEIRA
 				</h1>
-				<span class="banner_text--subtit">
+				<div class="banner_text--subtit">
 				<p style="font-size: 24px">
 					Devolvemos a beleza original do seu piso com técnicas<br> 
 					profissionais e acabamento impecável.
 				</p>
-				</span>
+			</div>
 
 				<div class="banner_button">
 
-				<a href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn button1" target="_blank">
+				<a href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" class="btn button1" rel="noopener noreferrer" target="_blank">
 					Solicite um orçamento
 				</a>
 
@@ -78,7 +103,8 @@
 		</div>
     </section>
 
-	<main class="servicos" id="servicos">
+<main>
+	<section class="servicos" id="servicos">
 		<div class="servico_wrapper">
 		<span class="servicos_text">
 		<h2>Serviços</h2>
@@ -90,7 +116,7 @@
     <div class="servico_content--card">
 
         <div class="card-img">
-            <img src="IMG/paginicial/raspagem.png">
+            <img src="IMG/paginicial/raspagem.png" loading="lazy" alt="Raspagem de piso de madeira">
             <span class="card-badge material-symbols-outlined">
                 construction
             </span>
@@ -106,7 +132,7 @@
     <div class="servico_content--card">
 
         <div class="card-img">
-            <img src="IMG/paginicial/restauracao.jpg">
+            <img src="IMG/paginicial/restauracao.jpg" loading="lazy" alt="Restauracao de piso de madeira em São Paulo">
             <span class="card-badge material-symbols-outlined">
                 handyman
             </span>
@@ -122,7 +148,7 @@
     <div class="servico_content--card">
 
         <div class="card-img">
-            <img src="IMG/paginicial/aplicacao.png">
+            <img src="IMG/paginicial/aplicacao.png" loading="lazy" alt="Aplicação de vernizes">
             <span class="card-badge material-symbols-outlined">
                 format_paint
             </span>
@@ -144,19 +170,19 @@
     <div class="minigaleria_wrapper">
 
     <div class="img_box">
-        <img src="IMG/paginicial/minigal(2).png" alt="">
+        <img src="IMG/paginicial/minigal(2).png" loading="lazy" alt="Piso de madeira restaurado com verniz">
     </div>
 
     <div class="img_box">
-        <img src="IMG/paginicial/minigal(1).png" alt="">
+        <img src="IMG/paginicial/minigal(1).png" loading="lazy" alt="Piso de madeira restaurado com verniz em São Paulo">
     </div>
 
     <div class="img_box">
-        <img src="IMG/paginicial/minigal(3).png" alt="">
+        <img src="IMG/paginicial/minigal(3).png" loading="lazy" alt="Deck de madeira restaurado com verniz">
     </div>
 
     <div class="img_box">
-        <img src="IMG/paginicial/minigal(4).png" alt="">
+        <img src="IMG/paginicial/minigal(4).png" loading="lazy" alt="Piso de madeira restaurado com verniz">
     </div>
 
 </div>
@@ -168,7 +194,7 @@
 		
 		</div>
 
-	</main>
+	</section>
 
 	<section class="sobrenos" id="sobrenos">
     <div class="sobrenos_wrapper">
@@ -224,12 +250,13 @@
         </div>
 
         <div class="sobrenos_imgs">
-            <img src="IMG/paginicial/sobrenosimg1.png" class="sobrenos_img1">
-            <img src="IMG/paginicial/sobrenosimg2.png" class="sobrenos_img2">
+            <img src="IMG/paginicial/sobrenosimg1.png" loading="lazy" alt="Piso de madeira restaurado com verniz" class="sobrenos_img1">
+            <img src="IMG/paginicial/sobrenosimg2.png" loading="lazy" alt="Banco de madeira restaurado com verniz" class="sobrenos_img2">
         </div>
 
     </div>
-</section>
+	</section>
+</main>
 
 <section class="contato" id="contato">
 	<div class="contato_wrapper">
@@ -260,7 +287,7 @@
 						<i class="fa-brands fa-instagram btinsic"></i>
 					</a>
 
-					<a class="button btwat" href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank">
+					<a class="button btwat" href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" rel="noopener noreferrer" target="_blank">
 						<i class="fa-brands fa-whatsapp btwatic"></i>
 					</a>
 
@@ -271,7 +298,7 @@
 			</div>
 
 			<div class="contato_map">
-				<iframe src="https://www.google.com/maps?q=-23.5558,-46.6358&z=10&output=embed"></iframe>
+				<iframe src="https://www.google.com/maps?q=-23.5558,-46.6358&z=10&output=embed" loading="lazy"></iframe>
 			</div>
 
 		</div>
@@ -316,7 +343,7 @@
 <footer class="MAP">
 
 	<div class="MAP_logo">
-		<img src="IMG/paginicial/logo.png" alt="Logo Aplicadora Coelho">
+		<img src="IMG/paginicial/logo.png" loading="lazy" alt="Logo Aplicadora Coelho">
 	</div>
 	
 	<div class="MAP_container">
@@ -390,7 +417,7 @@
 <div class="whatsapp-container">
   <span class="whatsapp-text">Fale conosco pelo WhatsApp</span>
   
-  <a href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" class="whatsapp-float">
+  <a href="https://wa.me/5511954154573?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 </div>
